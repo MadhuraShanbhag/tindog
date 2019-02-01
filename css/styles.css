@@ -1,0 +1,206 @@
+/******************ID SELECTORS**********************/
+
+#title {
+  padding: 3% 15% 8%;
+  text-align: left;
+}
+
+
+#features {
+  position: relative;
+}
+
+#testimonials {
+  background-color: #ef8172;
+
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+
+/*****************TAG SELECTORS**********************/
+a {
+  margin: auto 2rem;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+
+/*****************CLASS SELECTORS********************/
+
+/* HEADINGS */
+.heading {
+  font-weight: 900;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2.8rem;
+}
+
+/* CONTAINERS */
+
+.container-fluid {
+  padding: 8% 15%;
+}
+
+/* SECTIONS */
+
+.coloured-section {
+  background-color: #f93654;
+  color: white;
+}
+
+
+.white-section {
+    background-color: white;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4rem 0;
+  font-weight: 300;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.nav-item {
+  padding: 0;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+
+/* TITLE */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.rotated{
+  transform: rotate(20deg);
+}
+
+
+.title-img {
+  width: 60%;
+  margin: 1rem;
+  position: absolute;
+  right: 20%;
+}
+
+
+/* FEATURES */
+
+.feature-box {
+  padding: 3rem;
+}
+
+.feature-heading {
+  font-size: 1.5rem;
+}
+
+.feature-img {
+  color: #fc7171;
+  margin-bottom: 1rem;
+}
+
+.feature-img:hover {
+  color: #f93654;
+}
+
+.text-muted {
+  font-size: 1rem;
+  color: #8f8f8f;
+  width:85%;
+  margin: auto;
+}
+
+/* Testimonials */
+
+.testimonial-img {
+  width:10%;
+  border-radius: 100%;
+  margin: 1.5rem;
+}
+
+.testimonial-text {
+  font-size: 2.8rem;
+}
+
+
+/* PRESS */
+.press-logo {
+  width:15%;
+  padding: 1.5rem 1.5rem 3.5rem;
+}
+
+/* PRICING */
+
+.card {
+  margin: 15% 0;
+}
+
+.per-month {
+    color: #8f8f8f;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.price-heading {
+  font-size: 2.8rem;
+}
+
+.row {
+  padding-top: 5%;
+}
+
+
+/* FOOTER */
+.copyright {
+  font-size: 0.9rem;
+  color: #8f8f8f;
+}
+
+.footer-icon {
+  margin: 5% 2%;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 991px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .press-logo {
+    width: 20%;
+  }
+}
